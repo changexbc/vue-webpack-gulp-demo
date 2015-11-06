@@ -1,0 +1,32 @@
+{
+    "data": {
+        "list": [{
+            "vehicleNum": "浙A34564",
+            "accident": "Y",
+            "regDate": "2013-10-21"
+        }, {
+            "vehicleNum": "浙AH8H77",
+            "accident": "N",
+            "regDate": "2013-12-29"
+        }, {
+            "vehicleNum": "浙A77998",
+            "accident": ""
+        }, {
+            "vehicleNum": "浙A7RW87",
+            "accident": ""
+        }, {
+            "vehicleNum": "鄂B6BK02",
+            "accident": ""
+        }, {
+            "vehicleNum": "浙AA088B",
+            "accident": ""
+        }, {
+            "vehicleNum": "浙ACY032",
+            "accident": "N",
+            "regDate": "1958-10-21"
+        }],
+        "total": 7
+    },
+    "code": 0,
+    "msg": ""
+}

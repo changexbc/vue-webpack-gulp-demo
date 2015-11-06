@@ -1,0 +1,13 @@
+{
+  "package":{
+    "id":10000066,
+    "name":"年检查询",
+    "version":"0.0.1.0",
+    "description":"汽车服务－年检查询",
+    "require":[],
+    "app-type":"web",
+    "depends":[],
+    "icon":"icon.png",
+    "entry":"index.html"
+  }
+}
