@@ -1,7 +1,7 @@
 {
-  "name": "vue-hackernews",
+  "name": "vue-webpack-gulp-demo",
   "version": "1.0.0",
-  "description": "HN clone with Vue.js using HN API",
+  "description": "vue-webpack-gulp-demo",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot --quiet",
@@ -48,7 +48,6 @@
     "fastclick": "^1.0.6",
     "firebase": "^2.3.1",
     "moment": "^2.10.6",
-    "npm-zepto": "^1.1.7",
     "underscore": "^1.8.3",
     "vue": "^1.0.4",
     "vue-router": "^0.7.5"

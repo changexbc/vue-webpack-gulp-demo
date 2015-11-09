@@ -19,7 +19,7 @@ var ga_storage = require('./libs/utils/GALocalStorage')
 //     }, false);
 // }
 
-function init() {
+var init = function() {
     Vue.config.debug = true // 开启调试模式
     Vue.use(Router)
     var router = new Router({
@@ -76,4 +76,4 @@ function init() {
             )
         }, 1000)
     }
-}
+}()

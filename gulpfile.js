@@ -60,9 +60,9 @@ gulp.task("webpack:prod", ['clean'], function(callback) {
     var myConfig = Object.create(webpackConfig);
     myConfig.plugins = [
         new webpack.ProvidePlugin({
-            "$": "npm-zepto",
-            "Zepto": "npm-zepto",
-            "window.Zepto": "npm-zepto",
+            "$": "zepto",
+            "Zepto": "zepto",
+            "window.Zepto": "zepto",
             "_": "underscore",
             "FastClick": "fastclick"
         }),
@@ -97,9 +97,9 @@ gulp.task("webpack:test", ['clean'], function(callback) {
     myConfig.debug = true;
     myConfig.plugins = [
         new webpack.ProvidePlugin({
-            "$": "npm-zepto",
-            "Zepto": "npm-zepto",
-            "window.Zepto": "npm-zepto",
+            "$": "zepto",
+            "Zepto": "zepto",
+            "window.Zepto": "zepto",
             "_": "underscore",
             "FastClick": "fastclick"
         }),

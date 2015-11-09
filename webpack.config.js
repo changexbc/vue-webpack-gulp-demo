@@ -39,7 +39,7 @@ module.exports = {
     resolve: {
         extensions: ['', '.js', '.json', '.scss'],
         alias: {
-            // zepto: path.join(__dirname, 'src/libs/zepto/zepto.js'),
+            zepto: path.join(__dirname, 'src/libs/zepto/zepto.js'),
         }
     },
     plugins: [
@@ -50,9 +50,9 @@ module.exports = {
             '__PROD__': false,
         }),
         new webpack.ProvidePlugin({
-            "$": "npm-zepto",
-            "Zepto": "npm-zepto",
-            "window.Zepto": "npm-zepto",
+            "$": "zepto",
+            "Zepto": "zepto",
+            "window.Zepto": "zepto",
             "_": "underscore",
             "FastClick": "fastclick",
             "Daze":path.join(__dirname,'src/libs_native/native')
