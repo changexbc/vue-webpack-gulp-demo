@@ -1849,3 +1849,4 @@ window.$ === undefined && (window.$ = Zepto)
   }
 
 })(Zepto)
+module.exports = Zepto
